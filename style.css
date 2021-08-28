@@ -18,11 +18,11 @@
 }
 button{
     background-color: blueviolet;
-    width: 200px;
-    height: 120px;
+    width: 300px;
+    height: 200px;
     font-size: 100px;
     font-weight: bold;
-    margin-top:20px;
+    margin-top:30px;
     margin-bottom:20px;
 }
 
