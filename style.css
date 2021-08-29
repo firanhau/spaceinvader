@@ -1,8 +1,17 @@
 *{
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
-    background-color: brown;
+    margin: 0px;
+    background-color: white;
+}
+.canvas{
+    width: 1060px;
+    height: 1325px;
+    margin-right: 0px;
+}
+.background{
+    width: 1080px;
+    height: 1920px;
 }
 .backg{
     width: 1080px;
@@ -15,15 +24,40 @@
     flex-direction: row;
     font-weight: bold;
     margin-top: 20px;
+    width: 1080px;
+    height: 150px;
 }
-button{
-    background-color: blueviolet;
+.core{
     width: 300px;
-    height: 200px;
+    height: 150px;
+    display: flex;
+}
+.button{
+    display: flex;
+    width: 1080px;
+    height: 300px;
     font-size: 100px;
     font-weight: bold;
-    margin-top:30px;
-    margin-bottom:20px;
+    margin-top:0px;
+    margin-bottom:20px;    
+}
+#button-left{
+    width: 500px;
+    height:200px; 
+    background-color:greenyellow;
+    margin-right: 40px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#button-right{
+    width: 500px;
+    height:200px; 
+    background-color:greenyellow;
+    margin-left: 40px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
