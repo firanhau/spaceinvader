@@ -36,7 +36,6 @@
     display: flex;
     width: 1080px;
     height: 300px;
-    font-size: 100px;
     font-weight: bold;
     margin-top:0px;
     margin-bottom:20px;    
@@ -49,6 +48,7 @@
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    font-size: 100px;
 }
 #button-right{
     width: 500px;
@@ -58,6 +58,7 @@
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    font-size: 100px;
 }
 
 

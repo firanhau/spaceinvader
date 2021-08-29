@@ -103,8 +103,7 @@ function removeinvader() {
                 document.getElementById('core').innerHTML=d;
             }
             inva[i].l=false;                  
-        }
-        
+        }        
     }
 }
 let kq='chua biet';
