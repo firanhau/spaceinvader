@@ -2,8 +2,8 @@ let mycanvas = document.querySelector('canvas');
 let ctx = mycanvas.getContext('2d');
 let buttonleft = document.getElementById('button-left');
 
-mycanvas.width = 1060;
-mycanvas.height = 1325;
+mycanvas.width = 340;
+mycanvas.height = 510;
 
 const invader=new Array();
 invader[0] = new Image();
@@ -25,13 +25,13 @@ class ainvader{
         this.i=i,
         this.cX=cX,
         this.cY=cY,
-        this.cW=106,
-        this.cH=106,
+        this.cW=34,
+        this.cH=34,
         this.l=true
     }
     draw(){
         ctx.beginPath();
-        ctx.drawImage(invader[this.i], 0, 0, 106, 106, this.cX * 106, this.cY * 106, this.cW, this.cH)
+        ctx.drawImage(invader[this.i], 0, 0, 106, 106, this.cX * 34, this.cY * 34, this.cW, this.cH)
     }
     update(){
         this.cX;
@@ -74,7 +74,7 @@ mycanvas.addEventListener('click', function () {
 const screenstart = {    
     draw: function() {
         ctx.beginPath();
-        ctx.drawImage(start, 0, 0, 885, 587, 212, 212, 636, 318);
+        ctx.drawImage(start, 0, 0, 885, 587, 68, 68, 204, 102);
     }
 }
 
@@ -82,13 +82,13 @@ const screenstart = {
 const win={    
     draw: function() {
         ctx.beginPath();
-        ctx.drawImage(endgame, 0, 0, 512, 96, 212, 212, 636, 212);
+        ctx.drawImage(endgame, 0, 0, 512, 96, 68, 68, 204, 68);
     }
 }
 const lost={    
     draw: function() {
         ctx.beginPath();
-        ctx.drawImage(endgame, 0, 96, 512, 96, 212, 212, 636, 212);
+        ctx.drawImage(endgame, 0, 96, 512, 96, 68, 68, 204, 68);
     }
 }
 
